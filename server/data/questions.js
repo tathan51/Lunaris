@@ -1,0 +1,72 @@
+// Banque de questions "Qui est le plus...". Le groupe pointe du doigt en même temps.
+
+const QUESTIONS = {
+  soft: [
+    "Qui est le plus susceptible de rire en premier pendant un enterrement ?",
+    "Qui est le plus susceptible d'oublier son propre anniversaire ?",
+    "Qui est le plus susceptible de parler à ses plantes ?",
+    "Qui est le plus susceptible de s'endormir en premier à une soirée ?",
+    "Qui est le plus susceptible de chanter sous la douche à tue-tête ?",
+    "Qui est le plus susceptible de se perdre avec un GPS ?",
+    "Qui est le plus susceptible de manger la dernière part sans demander ?",
+    "Qui est le plus susceptible de pleurer devant un dessin animé ?",
+    "Qui est le plus susceptible d'arriver en retard à son propre mariage ?",
+    "Qui est le plus susceptible de parler tout seul dans la rue ?",
+    "Qui est le plus susceptible de garder un vieux t-shirt troué par sentiment ?",
+    "Qui est le plus susceptible de gagner un concours de grimaces ?",
+    "Qui est le plus susceptible d'avoir peur d'un film pour enfants ?",
+    "Qui est le plus susceptible de danser dans un supermarché ?",
+    "Qui est le plus susceptible de prendre 100 photos pour en garder une seule ?",
+    "Qui est le plus susceptible de croire une fausse excuse évidente ?",
+    "Qui est le plus susceptible de rater une marche en public ?",
+    "Qui est le plus susceptible de collectionner un truc bizarre ?",
+    "Qui est le plus susceptible de répondre à côté de la question à un examen ?",
+    "Qui est le plus susceptible de rire à ses propres blagues avant de les finir ?"
+  ],
+  moyen: [
+    "Qui est le plus susceptible d'avoir déjà menti pour éviter une soirée ?",
+    "Qui est le plus susceptible d'avoir stalké un(e) ex sur les réseaux ?",
+    "Qui est le plus susceptible de dépenser tout son salaire en une semaine ?",
+    "Qui est le plus susceptible d'avoir déjà fait semblant d'être malade pour sécher ?",
+    "Qui est le plus susceptible de garder un secret jusqu'à la tombe ?",
+    "Qui est le plus susceptible de vendre tout le monde pour gagner à un jeu ?",
+    "Qui est le plus susceptible d'avoir déjà pleuré à cause d'un jeu vidéo ?",
+    "Qui est le plus susceptible d'avoir un dossier caché honteux dans son téléphone ?",
+    "Qui est le plus susceptible de ghoster quelqu'un sans prévenir ?",
+    "Qui est le plus susceptible d'avoir déjà menti sur son âge ?",
+    "Qui est le plus susceptible de finir aux infos pour une raison improbable ?",
+    "Qui est le plus susceptible d'avoir triché à un jeu de société ce soir ?",
+    "Qui est le plus susceptible de craquer un secret après deux verres ?",
+    "Qui est le plus susceptible d'avoir déjà fouillé le téléphone de quelqu'un ?",
+    "Qui est le plus susceptible de se marier pour l'argent ?",
+    "Qui est le plus susceptible d'avoir déjà inventé une excuse bidon au travail ?",
+    "Qui est le plus susceptible de devenir célèbre par accident ?",
+    "Qui est le plus susceptible d'avoir un crush qu'il/elle n'a jamais avoué ?",
+    "Qui est le plus susceptible d'oublier un anniversaire important ?",
+    "Qui est le plus susceptible de survivre seul(e) sur une île déserte ?"
+  ],
+  hot: [
+    "Qui est le plus susceptible d'avoir déjà envoyé une photo un peu trop osée ?",
+    "Qui est le plus susceptible d'avoir un fantasme qu'il/elle n'assumerait jamais publiquement ?",
+    "Qui est le plus susceptible d'être un(e) excellent(e) coup selon ses ex ?",
+    "Qui est le plus susceptible d'avoir déjà couché dès le premier soir ?",
+    "Qui est le plus susceptible d'avoir déjà fait l'amour dans un endroit risqué (voiture, plage, toilettes...) ?",
+    "Qui est le plus susceptible d'avoir un accessoire coquin caché quelque part chez lui/elle ?",
+    "Qui est le plus susceptible d'avoir déjà eu (ou rêvé d'avoir) un plan à trois ?",
+    "Qui est le plus susceptible d'avoir déjà simulé pour faire plaisir à l'autre ?",
+    "Qui est le plus susceptible de connaître le plus grand nombre de positions ?",
+    "Qui est le plus susceptible d'avoir un compte un peu chaud caché sur les réseaux ?",
+    "Qui est le plus susceptible d'avoir déjà craqué pour quelqu'un rien qu'à cause de sa voix ?",
+    "Qui est le plus susceptible d'avoir eu une aventure avec quelqu'un d'interdit (ex d'un(e) ami(e), collègue...) ?",
+    "Qui est le plus susceptible d'aimer qu'on lui donne des ordres au lit ?",
+    "Qui est le plus susceptible d'avoir déjà tenté un strip-tease (même raté) ?",
+    "Qui est le plus susceptible de mater discrètement quelqu'un dans cette pièce ?",
+    "Qui est le plus susceptible d'avoir déjà utilisé un sextoy ?",
+    "Qui est le plus susceptible de flirter avec absolument tout le monde sans exception ?",
+    "Qui est le plus susceptible d'avoir un ou une ex avec qui c'était torride mais toxique ?",
+    "Qui est le plus susceptible d'avoir déjà eu des pensées pas très catholiques pendant une réunion/un cours ?",
+    "Qui est le plus susceptible de faire durer les préliminaires... juste pour torturer l'autre ?"
+  ]
+};
+
+module.exports = { QUESTIONS };
